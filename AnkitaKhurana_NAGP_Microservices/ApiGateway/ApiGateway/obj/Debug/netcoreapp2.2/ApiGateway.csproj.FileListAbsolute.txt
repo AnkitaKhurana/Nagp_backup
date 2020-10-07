@@ -1,0 +1,11 @@
+D:\repos\NAGP_MicroService_2\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.deps.json
+D:\repos\NAGP_MicroService_2\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.runtimeconfig.json
+D:\repos\NAGP_MicroService_2\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.runtimeconfig.dev.json
+D:\repos\NAGP_MicroService_2\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.dll
+D:\repos\NAGP_MicroService_2\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.csprojAssemblyReference.cache
+D:\repos\NAGP_MicroService_2\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.csproj.CoreCompileInputs.cache
+D:\repos\NAGP_MicroService_2\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.AssemblyInfoInputs.cache
+D:\repos\NAGP_MicroService_2\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.AssemblyInfo.cs
+D:\repos\NAGP_MicroService_2\ApiGateway\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.pdb
+D:\repos\NAGP_MicroService_2\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.dll
+D:\repos\NAGP_MicroService_2\ApiGateway\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.pdb

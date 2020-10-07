@@ -1,0 +1,46 @@
+version: "3.4"
+
+services:
+    user-microservice:
+        image: akshatunofficial/user-microservice
+        build: 
+            context: .
+            dockerfile: Dockerfile
+        depends_on: [rabbitmq, api-gateway]
+        ports: 
+            - "8080:8080"
+        container_name: user-microservice
+    order-microservice:
+        image: akshatunofficial/order-microservice
+        build: 
+            context: ../Order_Microservice
+            dockerfile: Dockerfile
+        depends_on: [rabbitmq, api-gateway]
+        ports: 
+            - "8081:8081"
+        container_name: order-microservice
+    catalog-microservice:
+        image: akshatunofficial/catalog-microservice
+        build:
+            context: ../Catalog_Microservice
+            dockerfile: Dockerfile
+        depends_on: [rabbitmq, api-gateway]
+        ports:
+            - "8082:8082"
+        container_name: catalog_microservice
+    rabbitmq:
+        image: rabbitmq:3-management
+        ports:
+            - "5672:5672"
+            - "15672:15672"
+        container_name: rabbitmq
+    api-gateway:
+        image: akshatunofficial/api-gateway
+        build:
+            context: ../APIGateway
+            dockerfile: Dockerfile
+        ports:
+            - "8085:8085"
+            - "9876:9876"
+        container_name: api-gateway
+    

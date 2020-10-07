@@ -1,0 +1,19 @@
+{
+  "name": "payment-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankita Khurana",
+  "license": "ISC",
+  "dependencies": {
+    "eureka-js-client": "^4.5.0",
+    "amqplib": "^0.5.5",
+    "winston": "^3.2.1",
+    "dotenv": "^8.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

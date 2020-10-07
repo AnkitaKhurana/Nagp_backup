@@ -1,0 +1,28 @@
+D:\CP\product-ms\product-ms\bin\Debug\netcoreapp2.1\product-ms.deps.json
+D:\CP\product-ms\product-ms\bin\Debug\netcoreapp2.1\product-ms.runtimeconfig.json
+D:\CP\product-ms\product-ms\bin\Debug\netcoreapp2.1\product-ms.runtimeconfig.dev.json
+D:\CP\product-ms\product-ms\bin\Debug\netcoreapp2.1\product-ms.dll
+D:\CP\product-ms\product-ms\bin\Debug\netcoreapp2.1\product-ms.pdb
+D:\CP\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.csprojAssemblyReference.cache
+D:\CP\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.csproj.CoreCompileInputs.cache
+D:\CP\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.RazorAssemblyInfo.cache
+D:\CP\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.RazorAssemblyInfo.cs
+D:\CP\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.AssemblyInfoInputs.cache
+D:\CP\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.AssemblyInfo.cs
+D:\CP\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.RazorTargetAssemblyInfo.cache
+D:\CP\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.dll
+D:\CP\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.pdb
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\bin\Debug\netcoreapp2.1\product-ms.deps.json
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\bin\Debug\netcoreapp2.1\product-ms.runtimeconfig.json
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\bin\Debug\netcoreapp2.1\product-ms.runtimeconfig.dev.json
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\bin\Debug\netcoreapp2.1\product-ms.dll
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\bin\Debug\netcoreapp2.1\product-ms.pdb
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.csprojAssemblyReference.cache
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.csproj.CoreCompileInputs.cache
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.RazorAssemblyInfo.cache
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.RazorAssemblyInfo.cs
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.AssemblyInfoInputs.cache
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.AssemblyInfo.cs
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.RazorTargetAssemblyInfo.cache
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.dll
+D:\CP\API Gateway Implementation with Ocelot\product-ms\product-ms\obj\Debug\netcoreapp2.1\product-ms.pdb

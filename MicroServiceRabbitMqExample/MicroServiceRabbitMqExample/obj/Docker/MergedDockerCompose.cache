@@ -1,0 +1,43 @@
+services:
+  rabbitmq:
+    container_name: rabbitmq
+    hostname: my-rabbit
+    image: rabbitmq:3-management
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+  service1:
+    build:
+      context: D:\MicroServiceRabbitMqExample\MicroServiceRabbitMqExample
+      dockerfile: Service1/Dockerfile
+    depends_on:
+    - rabbitmq
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: service1
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\ankitakhurana\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\ankitakhurana\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  service2:
+    build:
+      context: D:\MicroServiceRabbitMqExample\MicroServiceRabbitMqExample
+      dockerfile: Service2/Dockerfile
+    depends_on:
+    - rabbitmq
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: service2
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\ankitakhurana\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\ankitakhurana\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

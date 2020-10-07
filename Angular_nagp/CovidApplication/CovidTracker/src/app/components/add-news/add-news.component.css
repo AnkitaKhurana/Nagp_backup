@@ -1,0 +1,30 @@
+label{
+    display: block;
+    margin: 1%;
+    text-align: left;
+}
+.newsbox{
+    text-align: center;
+    background: #ffedf4;
+}
+input{
+    width: 100%;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    transition: border .3s ease;
+}
+
+textarea{
+    width: 100%;
+}
+.er{
+    font-size: 10px;
+    color: crimson;
+    padding-left: 1%;
+}
+
+.mat-flat-button.mat-primary[disabled], .mat-flat-button.mat-accent[disabled], .mat-flat-button.mat-warn[disabled], .mat-flat-button[disabled][disabled], .mat-raised-button.mat-primary[disabled], .mat-raised-button.mat-accent[disabled], .mat-raised-button.mat-warn[disabled], .mat-raised-button[disabled][disabled], .mat-fab.mat-primary[disabled], .mat-fab.mat-accent[disabled], .mat-fab.mat-warn[disabled], .mat-fab[disabled][disabled], .mat-mini-fab.mat-primary[disabled], .mat-mini-fab.mat-accent[disabled], .mat-mini-fab.mat-warn[disabled], .mat-mini-fab[disabled][disabled] {
+    background-color: gray;}

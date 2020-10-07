@@ -1,0 +1,83 @@
+http:
+  port: 8085
+admin:
+  port: 9876
+  host: localhost
+apiEndpoints:
+  userGeneral:
+    host: localhost
+    paths:
+      - '/user/login'
+      - '/user/'
+    methods: ["POST"]
+
+  userAuthenticated:
+    host: localhost
+    paths: 
+      - '/user/:userName'
+    methods: ["DELETE"]
+  
+  orderGeneral:
+    host: localhost
+    paths:
+      - '/order/:orderId'
+      - '/order/'
+    methods: ["GET", "POST"]
+
+  orderAuthenticated:
+    host: localhost
+    paths:
+      - '/order/:orderId'
+    methods: ["DELETE"]
+  
+
+serviceEndpoints:
+  user:
+    url: 'http://user-microservice:8080'
+  order:
+    url: 'http://order-microservice:8081'
+policies:
+  - jwt
+  - proxy
+pipelines:
+  user-authenticated:
+    apiEndpoints:
+      - userAuthenticated
+    policies:
+      - jwt:
+          action:
+              secretOrPublicKey: 'pleaseworkforgodssake'
+              checkCredentialExistence: false
+      - proxy:
+          action:
+              serviceEndpoint: user 
+              changeOrigin: true
+  order-authenticated:
+    apiEndpoints:
+      - orderAuthenticated
+    policies:
+      - jwt:
+          action:
+              secretOrPublicKey: 'pleaseworkforgodssake'
+              checkCredentialExistence: false
+      - proxy:
+          action:
+              serviceEndpoint: order 
+              changeOrigin: true
+  user-general:
+    apiEndpoints:
+      - userGeneral
+    policies:
+      - proxy:
+          action:
+            serviceEndpoint: user
+            changeOrigin: true
+  order-general:
+    apiEndpoints:
+      - orderGeneral
+    policies:
+      - proxy:
+          action:
+            serviceEndpoint: order
+            changeOrigin: true
+

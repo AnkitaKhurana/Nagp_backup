@@ -1,0 +1,116 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/user",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/user",
+      "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ],
+      "Key": "user",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "3001"
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/product",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/product",
+      "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ],
+      "Key": "product",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "3000"
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/cart",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/cart",
+      "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ],
+      "Key": "cart",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "3003"
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "SOMEAUTHKEY",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/order",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/order",
+      "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ],
+      "Key": "order",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "3004"
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "SOMEAUTHKEY",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/payment",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/payment",
+      "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ],
+      "Key": "payment",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "3005"
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "SOMEAUTHKEY",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/delivery",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/delivery",
+      "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ],
+      "Key": "delivery",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "3006"
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "SOMEAUTHKEY",
+        "AllowedScopes": []
+      }
+    }
+  ],
+  "Aggregates": [
+    {
+      "ReRouteKeys": [
+        "user"
+      ],
+      "UpstreamPathTemplate": "/combine"
+    }
+  ],
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/administration",
+    "UseServiceDiscovery": true,
+    "ServiceDiscoveryProvider": {
+      "Type": "Eureka",
+      "Host": "localhost",
+      "Port": "8761"
+    }
+  }
+}

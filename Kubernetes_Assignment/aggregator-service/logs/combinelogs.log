@@ -1,0 +1,146 @@
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"connect ETIMEDOUT 192.168.0.103:3001","name":"Error","stack":"Error: connect ETIMEDOUT 192.168.0.103:3001\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1113:14)","config":{"url":"http://192.168.0.103:3001/user/3","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.19.2"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1},"code":"ETIMEDOUT"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=combineservice)","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=combineservice)","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=combineservice)","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"level":"error"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"level":"error"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"level":"error"}
+{"message":"Extracting current user","level":"info"}
+{"level":"error"}
+{"message":"Extracting current user","level":"info"}
+{"level":"error"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"Aggregator Service running at port3003","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning order","level":"info"}

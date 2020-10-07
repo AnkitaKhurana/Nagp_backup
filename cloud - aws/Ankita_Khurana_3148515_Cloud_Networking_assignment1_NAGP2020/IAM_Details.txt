@@ -1,0 +1,23 @@
+####################################################################################
+NOTE : Providing two ways below as testing for the provided account Id was not 
+possible at my end
+####################################################################################
+
+1. Role assumed for the provided Account ID - 9119-0021-0609
+
+- Role ARN
+arn:aws:iam::495336230329:role/nagp_checker 
+
+- Link to switch role
+https://signin.aws.amazon.com/switchrole?roleName=nagp_checker&account=495336230329
+
+####################################################################################
+
+2. User
+
+- Users with AWS Management Console access can sign-in at: 
+	https://495336230329.signin.aws.amazon.com/console
+- Username : Checker
+- Password : user3@4009
+
+####################################################################################

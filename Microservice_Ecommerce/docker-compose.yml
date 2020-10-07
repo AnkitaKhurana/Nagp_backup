@@ -1,0 +1,112 @@
+version: "3"
+services:
+  
+  eureka:
+    image: steeltoeoss/eureka-server
+    ports: 
+      - "8761:8761"
+  user:
+    build: "./user-service"
+    ports:
+      - "3001:3001"
+    depends_on:
+      - eureka    
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=eureka
+
+  products:
+    build: "./products-service"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+      - eureka
+    environment:
+      - MONGO_DB_URI=mongodb://db/microservices
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=eureka
+
+  cart:
+    build: "./cart-service"
+    ports:
+      - "3003:3003"
+    depends_on:
+      - db
+      - rabbitmq
+      - eureka
+    environment:
+      - MONGO_DB_URI=mongodb://db/microservices
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=eureka
+
+  orders:
+    build: "./order-service"
+    ports:
+      - "3004:3004"
+    depends_on:
+      - db
+      - rabbitmq
+      - eureka
+    environment:
+      - MONGO_DB_URI=mongodb://db/microservices
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=eureka
+
+  payment:
+    build: "./payment-service"
+    ports:
+      - "3005:3005"
+    depends_on:
+      - rabbitmq
+      - eureka
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: "eureka"
+
+  delivery:
+    build: "./delivery-service"
+    ports:
+      - "3006:3006"
+    depends_on:
+      - rabbitmq   
+      - eureka
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: "eureka"  
+
+  db:
+    image: mongo
+    ports:
+      - "27017:27017"
+    depends_on:
+      - rabbitmq  
+      - eureka
+
+  rabbitmq:
+    image: rabbitmq:latest
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    depends_on: 
+      - eureka 
+  
+      
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8010:8010"
+    volumes:
+      - ./default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - user
+      - products
+      - cart
+      - orders
+      - payment
+      - delivery
+      - apigateway
+      
+  apigateway:
+    image: apigateway
+    build: 
+      context: ./ApiGateway
+      dockerfile: ApiGateway/Dockerfile    
+    ports:
+      - "62586:62586"
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: "eureka"   

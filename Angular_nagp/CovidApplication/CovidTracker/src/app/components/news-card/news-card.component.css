@@ -1,0 +1,8 @@
+.example-card {
+  max-width: 200px;
+  margin: 1%;
+  display: inline-block;
+}
+p{
+  padding : 1%;
+}

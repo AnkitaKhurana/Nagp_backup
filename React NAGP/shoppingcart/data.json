@@ -1,0 +1,152 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung",
+      "discount": 10,
+      "img_url": "https://static.toiimg.com/photo/73078527.cms",
+      "price": 10000,
+      "type": "touch",
+      "model_no": 23,
+      "color": "Black, Blue",
+      "screen_size": "5 inch",
+      "os": "Android",
+      "ram": "4 GB",
+      "storage": "128 GB"
+    },
+    {
+      "id": 2,
+      "name": "Nokia",
+      "discount": 20,
+      "img_url": "https://static.toiimg.com/photo/71179869.cms",
+      "price": 20000,
+      "type": "touch",
+      "model_no": 23,
+      "color": "Black, Blue",
+      "screen_size": "5 inch",
+      "os": "Android",
+      "ram": "4 GB",
+      "storage": "128 GB"
+    },
+    {
+      "id": 3,
+      "name": "Redmi",
+      "discount": 2,
+      "img_url": "https://static.toiimg.com/photo/73078527.cms",
+      "price": 11000,
+      "type": "nontouch",
+      "model_no": 23,
+      "color": "Black, Blue",
+      "screen_size": "5 inch",
+      "os": "Android",
+      "ram": "4 GB",
+      "storage": "128 GB"
+    },
+    {
+      "id": 4,
+      "name": "Xiomi",
+      "discount": 2,
+      "img_url": "https://static.toiimg.com/photo/71179869.cms",
+      "price": 12000,
+      "type": "nontouch",
+      "model_no": 23,
+      "color": "Black, Blue",
+      "screen_size": "5 inch",
+      "os": "Android",
+      "ram": "4 GB",
+      "storage": "128 GB"
+    },
+    {
+      "id": 5,
+      "name": "Vivo",
+      "discount": 2,
+      "img_url": "https://static.toiimg.com/photo/73078527.cms",
+      "price": 10990,
+      "type": "nontouch",
+      "model_no": 23,
+      "color": "Black, Blue",
+      "screen_size": "5 inch",
+      "os": "Android",
+      "ram": "4 GB",
+      "storage": "128 GB"
+    },
+    {
+      "id": 6,
+      "name": "IPhone",
+      "discount": 2,
+      "img_url": "https://static.toiimg.com/photo/71179869.cms",
+      "price": 10090,
+      "type": "nontouch",
+      "model_no": 23,
+      "color": "Black, Blue",
+      "screen_size": "5 inch",
+      "os": "Android",
+      "ram": "4 GB",
+      "storage": "128 GB"
+    },
+    {
+      "id": 7,
+      "name": "Sony",
+      "discount": 2,
+      "img_url": "https://static.toiimg.com/photo/73078527.cms",
+      "price": 12000,
+      "type": "nontouch",
+      "model_no": 23,
+      "color": "Black, Blue",
+      "screen_size": "5 inch",
+      "os": "Android",
+      "ram": "4 GB",
+      "storage": "128 GB"
+    },
+    {
+      "id": 8,
+      "name": "Motorola",
+      "discount": 2,
+      "img_url": "https://static.toiimg.com/photo/71179869.cms",
+      "price": 10700,
+      "type": "nontouch",
+      "model_no": 23,
+      "color": "Black, Blue",
+      "screen_size": "5 inch",
+      "os": "Android",
+      "ram": "4 GB",
+      "storage": "128 GB"
+    },
+    {
+      "id": 9,
+      "name": "Lenovo",
+      "discount": 2,
+      "img_url": "https://static.toiimg.com/photo/73078527.cms",
+      "price": 10500,
+      "type": "nontouch",
+      "model_no": 23,
+      "color": "Black, Blue",
+      "screen_size": "5 inch",
+      "os": "Android",
+      "ram": "4 GB",
+      "storage": "128 GB"
+    },
+    {
+      "id": 10,
+      "name": "Oppo",
+      "discount": 2,
+      "img_url": "https://static.toiimg.com/photo/71179869.cms",
+      "price": 13000,
+      "type": "nontouch",
+      "model_no": 23,
+      "color": "Black, Blue",
+      "screen_size": "5 inch",
+      "os": "Android",
+      "ram": "4 GB",
+      "storage": "128 GB"
+    }
+  ],
+  "profiles": [{
+   "username":"admin",
+   "password":"admin" 
+  },
+  {
+    "username":"admin@admin.com",
+    "password":"admin" 
+   }]
+}

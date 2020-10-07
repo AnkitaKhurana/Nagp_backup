@@ -1,0 +1,15 @@
+<form [formGroup]="postForm">
+  
+    <label>
+     id
+      <input type="text" formControlName="id">
+    </label>
+  
+    <label>
+      Name:
+      <input type="text" formControlName="name">
+    </label>
+    <button type="submit" [disabled]="!postForm.valid" (click)="edit(postForm.value)">Edit</button>
+  
+  </form>
+  

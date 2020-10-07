@@ -1,0 +1,142 @@
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=orderservice)","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=orderservice)","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=orderservice)","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=orderservice)","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=orderservice)","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=orderservice)","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=orderservice)","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"Order Service running at port3002","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}
+{"message":"Extracting current user order","level":"info"}
+{"message":"Returning current user order","level":"info"}

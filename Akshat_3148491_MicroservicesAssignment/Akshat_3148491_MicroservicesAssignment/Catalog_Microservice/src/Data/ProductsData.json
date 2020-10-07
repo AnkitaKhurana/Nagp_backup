@@ -1,0 +1,64 @@
+{
+    "productsList": [
+        {
+            "id": "146e5b50-5119-43de-a2f6-8d7334aea007",
+            "name": "Casio G Shock Watch Solar Atom (gwm500a-1)",
+            "amount": 1498,
+            "quantity": 5
+        },
+        {
+            "id": "eff24f9a-c455-4e51-8580-7aea4753e1ad",
+            "name": "Belkin GS5 Sport Fit Armband, Black F8M918B1C00",
+            "amount": 483,
+            "quantity": 0
+        },
+        {
+            "id": "8b29f764-cfd7-478a-af1f-77a2e1c7fc73",
+            "name": "Barska GB12166 Fitness Watch with Heart Rate Monitor",
+            "amount": 2165,
+            "quantity": 9
+        },
+        {
+            "id": "e654dc94-5d9f-47c0-a9d0-f76823f705ab",
+            "name": "Casio WS220 Solar Runner Digital Wrist Watch; Navy Blue",
+            "amount": 2124,
+            "quantity": 7
+        },
+        {
+            "id": "d882c17a-5df4-46c3-b53d-cb5c003b402a",
+            "name": "Bowflex EZ Pro Strapless Heart Rate Monitor Watch, Black",
+            "amount": 3794,
+            "quantity": 3
+        },
+        {
+            "id": "f375b418-1ae2-423f-b057-cbc75965423b",
+            "name": "CHECK PRINT SHIRT",
+            "amount": 2882,
+            "quantity": 4
+        },
+        {
+            "id": "a5d12521-652b-4bbb-92fc-dfc20537737c",
+            "name": "GLORIA HIGH LOGO SNEAKER",
+            "amount": 2627,
+            "quantity": 6
+        },
+        {
+            "id": "f2524835-0754-4b15-aa13-c1ac5ba0d639",
+            "name": "CATE RIGID BAG",
+            "amount": 4294,
+            "quantity": 2
+        },
+        {
+            "id": "86dcc257-6d4d-4292-b2d6-7fe942a11573",
+            "name": "GUESS CONNECT WATCH",
+            "amount": 1241,
+            "quantity": 7
+        },
+        {
+            "id": "612a176c-5de1-4d6d-ba7e-3a4cf38611db",
+            "name": "70s RETRO GLAM KEFIAH",
+            "amount": 1131,
+            "quantity": 3
+        }
+    ]
+}

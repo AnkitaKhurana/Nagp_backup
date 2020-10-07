@@ -1,0 +1,5 @@
+./node_modules/
+.vscode
+./product-service/node_modules
+./user-service/node_modules
+./search-service/node_modules

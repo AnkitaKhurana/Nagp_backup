@@ -1,0 +1,67 @@
+<div class="newsbox">
+  <form [formGroup]="newsForm">
+    <div>
+      <h1>ADD NEWS</h1>
+
+      <label>
+        ID :
+        <input type="text" formControlName="id">
+        <div *ngIf="id.invalid && (id.dirty || id.touched)">
+          <div *ngIf="id.errors" class="alert alert-danger">
+            <div *ngIf="id.errors.required" class="er">ID is required.</div>
+            <div *ngIf="id.errors.pattern" class="er">ID must be a number.</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        Title:
+        <input type="text" formControlName="title">
+        <div *ngIf="title.invalid && (title.dirty || title.touched)">
+          <div *ngIf="title.errors" class="alert alert-danger">
+            <div *ngIf="title.errors.required" class="er">Title is required.</div>
+          </div>
+        </div>
+
+      </label>
+
+      <label>
+        Summary:
+        <input type="text" formControlName="summary">
+        <div *ngIf="summary.invalid && (summary.dirty || summary.touched)">
+          <div *ngIf="summary.errors" class="alert alert-danger">
+            <div *ngIf="summary.errors.required" class="er">Summary is required.</div>
+          </div>
+        </div>
+      </label>
+
+      <label>
+        Description:
+        <textarea type="text" formControlName="description"></textarea>
+        <div *ngIf="description.invalid && (description.dirty || description.touched)">
+          <div *ngIf="description.errors" class="alert alert-danger">
+            <div *ngIf="description.errors.required" class="er">Description is required.</div>
+          </div>
+        </div>
+      </label>
+
+      <label>
+        Full News:
+        <textarea type="text" formControlName="full"></textarea>
+        <div *ngIf="full.invalid && (full.dirty || full.touched)">
+          <div *ngIf="full.errors" class="alert alert-danger">
+            <div *ngIf="full.errors.required" class="er">Full News is required.</div>
+          </div>
+        </div>
+      </label>
+
+      <label>
+        Image URL:
+        <input type="text" formControlName="image">
+      </label>
+      <button mat-raised-button type="submit" [disabled]="!newsForm.valid" (click)="add(newsForm.value)">
+        Add
+      </button>
+    </div>
+  </form>
+  <br><br>
+</div>

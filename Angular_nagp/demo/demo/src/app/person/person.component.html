@@ -1,0 +1,42 @@
+<div class="card">
+    <div class="card-header">
+      {{ pageTitle }}
+    </div>
+
+   
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table" *ngIf="users && users.length; else notShow">
+          <thead>
+            <tr  [ngStyle]="{'color': 'red'}">
+              <th>ID</th>
+              <th title="name">Name</th>
+              <th>Email</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of users">
+                <td>{{ user.id }}</td>
+              <td>{{ user.name | displayName }}</td>
+              <td>{{ user.email }}</td>
+              <td>{{ user.age }}</td>
+              <!-- <td> -->
+                <!-- <button (click)="deleteRecord(user.id)" class="btn btn-danger">
+                  Delete Record
+                </button> -->
+              <!-- </td> -->
+            </tr>
+          </tbody>
+        </table>
+        <ng-template #notShow>
+            <p>
+              No Users found
+            </p>
+          </ng-template>
+
+          <!-- <app-input></app-input> -->
+          <app-input-reactive></app-input-reactive>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,99 @@
+version: "3"
+services:
+  user:
+    build: "./user-service"
+    ports:
+      - "3001:3001"
+    depends_on:
+      - eureka
+
+  products:
+    build: "./products-service"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+      - eureka
+    environment:
+      - MONGO_DB_URI=mongodb://db/microservices
+
+  cart:
+    build: "./cart-service"
+    ports:
+      - "3003:3003"
+    depends_on:
+      - db
+      - rabbitmq
+      - eureka
+    environment:
+      - MONGO_DB_URI=mongodb://db/microservices
+
+  orders:
+    build: "./order-service"
+    ports:
+      - "3004:3004"
+    depends_on:
+      - db
+      - rabbitmq
+      - eureka
+    environment:
+      - MONGO_DB_URI=mongodb://db/microservices
+
+  payment:
+    build: "./payment-service"
+    ports:
+      - "3005:3005"
+    depends_on:
+      - rabbitmq
+      - eureka
+
+  delivery:
+    build: "./delivery-service"
+    ports:
+      - "3006:3006"
+    depends_on:
+      - rabbitmq   
+      - eureka
+
+  db:
+    image: mongo
+    ports:
+      - "27017:27017"
+    depends_on:
+      - rabbitmq  
+      - eureka
+
+  rabbitmq:
+    image: rabbitmq:latest
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    depends_on: 
+      - eureka 
+  
+  eureka:
+    image: steeltoeoss/eureka-server
+    ports: 
+      - "8761:8761"
+      
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8010:8010"
+    volumes:
+      - ./default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - user
+      - products
+      - cart
+      - orders
+      - payment
+      - delivery
+      
+  apigateway:
+    image: apigateway
+    build: 
+      context: ./ApiGateway
+      dockerfile: ApiGateway/Dockerfile    
+    ports:
+      - 62586:62586

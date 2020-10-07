@@ -1,0 +1,42 @@
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\appsettings.json
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Users.service.exe
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.csprojAssemblyReference.cache
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\staticwebassets\Users.service.StaticWebAssets.Manifest.cache
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\staticwebassets\Users.service.StaticWebAssets.xml
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.AssemblyInfoInputs.cache
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.AssemblyInfo.cs
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.RazorTargetAssemblyInfo.cache
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Users.service.deps.json
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Users.service.runtimeconfig.json
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Users.service.runtimeconfig.dev.json
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Users.service.dll
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Users.service.pdb
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.MvcApplicationPartsAssemblyInfo.cache
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.csproj.CopyComplete
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.dll
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.pdb
+D:\NAGP\Assignments\1. Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Data\UserData.json
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\appsettings.json
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Data\UserData.json
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Users.service.exe
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Users.service.deps.json
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Users.service.runtimeconfig.json
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Users.service.runtimeconfig.dev.json
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Users.service.dll
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Users.service.pdb
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.csprojAssemblyReference.cache
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\staticwebassets\Users.service.StaticWebAssets.Manifest.cache
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\staticwebassets\Users.service.StaticWebAssets.xml
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.MvcApplicationPartsAssemblyInfo.cache
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.AssemblyInfoInputs.cache
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.AssemblyInfo.cs
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.RazorTargetAssemblyInfo.cache
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.csproj.CopyComplete
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.dll
+D:\NAGP\Assignments\1.Microservices\EcommMicroServices\EcommMicroServices\obj\Debug\netcoreapp3.0\Users.service.pdb

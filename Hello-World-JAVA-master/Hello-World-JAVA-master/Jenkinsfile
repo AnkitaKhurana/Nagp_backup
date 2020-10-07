@@ -1,0 +1,134 @@
+pipeline
+{   
+      agent any 
+      environment 
+      {       
+        dockerImage = ''
+      }
+      tools
+      {
+         maven 'Maven3'
+      }     
+      options
+      {
+          skipDefaultCheckout()
+          disableConcurrentBuilds()
+      }
+      stages
+      {
+         stage ('checkout')
+         {
+            steps
+            {
+               echo "Checkout repo"
+               checkout scm
+            }
+         }
+         stage ('Build')
+         {
+            steps
+            {
+               echo "build in master branch - 2"
+               bat "mvn clean install -Dhttps.protocols=TLSv1.2"
+            }
+         }
+         stage ('Unit Testing')
+         {
+            steps
+            {
+               bat "mvn test"
+            }
+         }
+         stage ('Sonar Analysis')
+         {
+            environment 
+            {
+               jdk = tool name: 'JAVA_HOME'
+               JAVA_HOME = "${jdk}"
+               scannerHome = tool 'SonarQube Scanner'
+            }
+            steps
+            {
+               withSonarQubeEnv("Test_Sonar")
+               {
+                  bat "mvn sonar:sonar -Dhttps.protocols=TLSv1.2"
+               }
+            }
+
+         }
+         stage ('Upload to Artifactory')
+         {
+            environment 
+            {
+               jdk = tool name: 'JAVA_HOME'
+               JAVA_HOME = "${jdk}"
+            }
+            steps
+            {
+               rtMavenDeployer(
+                      id: 'deployer',
+                      serverId: '123456789@artifactory',
+                      releaseRepo : 'CI-Automation-JAVA',
+                      snapshotRepo: 'CI-Automation-JAVA'
+               )
+
+               rtMavenRun(
+                      pom: 'pom.xml',
+                      goals: 'clean install',
+                      deployerId: 'deployer'
+               )
+       
+               rtPublishBuildInfo(
+                      serverId: '123456789@artifactory'
+               )
+            }
+
+         }
+          stage('Docker Image') 
+              {
+                 environment {
+                   buildNumber  =  "$BUILD_NUMBER"
+                   registry = "dtr.nagarro.com:443/i_ankitakhurana_master"
+                }
+                  steps
+                  {
+                       bat 'docker build -t '+ registry + ":$BUILD_NUMBER" + " ." 
+                  }
+              }
+               stage('Push to DTR') {
+                  environment {
+                   registry = "dtr.nagarro.com:443/i_ankitakhurana_master:"+"$BUILD_NUMBER"
+                }
+                  steps{
+                          bat 'docker push '+registry
+                  }
+              }
+      
+        stage('Stop Running container') 
+        {
+          
+          steps{
+                script {
+                   echo "Stop containers"
+                   bat 'docker stop c_ankitakhurana_master || exit 0 && docker rm c_ankitakhurana_master || exit 0'
+                }
+            }
+         }
+        stage('Docker deployment') 
+        {    
+           environment {
+               registry = "dtr.nagarro.com:443/i_ankitakhurana_master"
+            }         
+             steps{
+                script {
+                  bat 'docker run -p 6000:8080 --name c_ankitakhurana_master '+ registry + ":$BUILD_NUMBER" 
+                }
+            }
+        }
+        stage('Helm Chart Deployment') {
+            steps {
+                bat "helm install sample-java-deployment helm-chart --namespace=default --set nodeport=30157 --set image=dtr.nagarro.com:443/i_ankitakhurana_master:"+"${BUILD_NUMBER}" +" || helm upgrade sample-java-deployment helm-chart --set nodeport=30157 --set image=dtr.nagarro.com:443/i_ankitakhurana_master:"+"$BUILD_NUMBER" 
+            }
+        }    
+      }
+}

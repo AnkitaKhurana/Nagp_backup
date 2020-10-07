@@ -1,0 +1,44 @@
+<div class="loginbox">
+    <form [formGroup]="loginForm">
+        <div>
+            <h1>ADMIN LOGIN</h1>
+
+            <label>
+                Email:
+                <input type="text" formControlName="email">
+            </label>
+            <div *ngIf="email.invalid && (email.dirty || email.touched)">
+                <div *ngIf="email">
+                    <div *ngIf="email.errors" class="alert alert-danger">
+                        <div *ngIf="email.errors.required" class="er">Email is required.</div>
+                        <div *ngIf="email.errors.email" class="er">Email not in correct format.</div>
+
+                    </div>
+                </div>
+            </div>
+            <label>
+                Password:
+                <input type="text" formControlName="password">
+                <div *ngIf="password">
+                    <div *ngIf="password.invalid && (password.dirty || password.touched)">
+                        <div *ngIf="password.errors" class="alert alert-danger">
+                            <div *ngIf="password.errors.required" class="er">Password is required.</div>
+                            <div *ngIf="password.errors.minLength!==null" class="er">Password must be of min 5
+                                characters</div>
+                        </div>
+                    </div>
+                </div>
+            </label>
+
+            <button mat-raised-button type="submit" [disabled]="!loginForm.valid" (click)="login(loginForm.value)">
+                Login
+            </button>
+        </div>
+    </form>
+    <br><br>
+
+    <pre>       
+        email: admin@admin.com
+        password: admin
+    </pre>
+</div>

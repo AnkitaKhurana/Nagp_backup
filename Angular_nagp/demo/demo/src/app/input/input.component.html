@@ -1,0 +1,20 @@
+<form (ngSubmit)="save(userForm)" #userForm="ngForm">
+    <div>
+        <label for="id">Id</label>
+        <input id="id" type="text" placeholder="Enter Id" required minlength="1" [(ngModel)]="user.id" name="id"
+            #IdVar="ngModel" [ngClass]="{'is-invalid': IdVar.touched && !IdVar.valid}" />
+
+        <br>
+        <label for="txtName">Name</label>
+        <input id="txtName" type="text" placeholder="Enter Name" required minlength="1" [(ngModel)]="user.name"
+            name="name" #nameVar="ngModel" [ngClass]="{'is-invalid': nameVar.touched && !nameVar.valid}" />
+
+        <div *ngIf="!userForm.valid">
+            ERRORS:<br>
+            <span *ngIf="IdVar.errors">Please enter your ID</span><br>
+            <span *ngIf="nameVar.errors">Please enter your name</span>
+        </div>
+
+    </div>
+    <button type="submit">Save</button>
+</form>

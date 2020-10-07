@@ -1,0 +1,27 @@
+D:\CP\web-api\web-api\bin\Debug\netcoreapp2.1\web-api.deps.json
+D:\CP\web-api\web-api\bin\Debug\netcoreapp2.1\web-api.runtimeconfig.json
+D:\CP\web-api\web-api\bin\Debug\netcoreapp2.1\web-api.runtimeconfig.dev.json
+D:\CP\web-api\web-api\bin\Debug\netcoreapp2.1\web-api.dll
+D:\CP\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.csproj.CoreCompileInputs.cache
+D:\CP\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.RazorAssemblyInfo.cache
+D:\CP\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.RazorAssemblyInfo.cs
+D:\CP\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.AssemblyInfoInputs.cache
+D:\CP\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.AssemblyInfo.cs
+D:\CP\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.RazorTargetAssemblyInfo.cache
+D:\CP\web-api\web-api\bin\Debug\netcoreapp2.1\web-api.pdb
+D:\CP\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.dll
+D:\CP\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.pdb
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\bin\Debug\netcoreapp2.1\web-api.deps.json
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\bin\Debug\netcoreapp2.1\web-api.runtimeconfig.json
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\bin\Debug\netcoreapp2.1\web-api.runtimeconfig.dev.json
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\bin\Debug\netcoreapp2.1\web-api.dll
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\bin\Debug\netcoreapp2.1\web-api.pdb
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.csproj.CoreCompileInputs.cache
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.RazorAssemblyInfo.cache
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.RazorAssemblyInfo.cs
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.AssemblyInfoInputs.cache
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.AssemblyInfo.cs
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.RazorTargetAssemblyInfo.cache
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.dll
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.pdb
+D:\CP\API Gateway Implementation with Ocelot\web-api\web-api\obj\Debug\netcoreapp2.1\web-api.csprojAssemblyReference.cache

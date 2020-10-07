@@ -1,0 +1,295 @@
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"No such user found to edit:invalid credentials","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"No such user found to edit:invalid credentials","level":"info"}
+{"message":"Creating user","level":"info"}
+{"message":"User created","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Database In Sync","level":"info"}
+{"message":"Search Service running at port3001","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and RemoteSampler(serviceName=userservice)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Initializing Jaeger Tracer with RemoteReporter and ConstSampler(always)","level":"info"}
+{"message":"User Service running at port3001","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
+{"message":"Extracting current user","level":"info"}
+{"message":"Returning user","level":"info"}
